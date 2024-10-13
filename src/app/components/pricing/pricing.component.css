@@ -1,0 +1,107 @@
+body {
+    background-color: #f4f7fa;
+}
+.pricing-table {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    height: 510px;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card.middle-card {
+    background-color: #007bff;
+    color: white;
+    border: #f4f7fa 1px solid;
+}
+.card.middle-card h3 {
+    margin-top: 30px;
+    color: white; 
+}
+.card h3 {
+    margin-top: 30px;
+    color: black; 
+    font-weight: bold;
+}
+
+
+.middle-card .feature-list li {
+    color: white; 
+
+}
+.middle-card .btn-primary {
+    margin-top: 30px;
+    background: white; 
+    color: #007bff;
+    
+}
+ .middle-card .price{
+    color: white; 
+} 
+
+.pricing {
+    display: flex;
+    align-items: flex-start;
+}
+
+.price {
+    font-size: 5rem;
+    color: black;
+   margin-left:85px;
+   margin-top: -20px;
+  
+}
+
+.price-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: center;
+}
+
+.currency, .duration {
+    font-size: 20px; 
+    line-height: 1; 
+    margin-top: 10px;
+}
+
+.currency {
+    font-weight: bold;
+}
+
+.btn-primary {
+    margin-top: 30px;
+    background: #007bff;
+    border: none;
+    border-radius: 25px;
+    transition: background 0.3s;
+}
+.btn-primary:hover {
+    background: #0056b3;
+}
+.feature-list {
+    list-style-type: none;
+    padding: 0;
+    margin: auto;
+    text-align: center; 
+    width: fit-content; 
+}
+
+.feature-list li {
+    text-align: start;
+    padding: 5px 0; 
+}
+
+
+.feature-icon {
+    color: #007bff;
+    margin-right: 10px;
+}

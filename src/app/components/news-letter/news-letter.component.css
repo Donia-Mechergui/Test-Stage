@@ -1,0 +1,28 @@
+.newsletter-form {
+    display: flex;
+    gap: 10px;
+}
+
+.form-group {
+    flex: 1; 
+    margin: 0;
+}
+.form-group input {
+    border-radius: 25px;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    box-sizing: border-box; 
+    margin-top: 5px;
+}
+
+.form-control {
+    width: 100%; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.button {
+    padding: 10px 20px;
+    white-space: nowrap;
+   
+}
